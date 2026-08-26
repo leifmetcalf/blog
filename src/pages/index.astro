@@ -1,7 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
-const posts = await getCollection('posts');
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 ---
 <Base>
   <h1>My posts</h1>
