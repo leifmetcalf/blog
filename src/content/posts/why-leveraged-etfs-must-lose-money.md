@@ -31,4 +31,4 @@ $$
 \frac12 f(x)^2-\frac12 x
 $$
 
-(why can we substitute $\operatorname{E}[(\Delta f)^2] for $(\Delta f)^2$ and ignore the noise component $(\Delta f)^2 - \operatorname{E}[(\Delta f)^2]$? hint: calculate the variance in the accumulated noise)
+(why can we substitute $\operatorname{E}[(\Delta f)^2]$ for $(\Delta f)^2$ and ignore the noise component $(\Delta f)^2 - \operatorname{E}[(\Delta f)^2]$? hint: calculate the variance in the accumulated noise)
