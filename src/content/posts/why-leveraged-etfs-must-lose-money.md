@@ -3,7 +3,7 @@ title: 'Why leveraged ETFs must lose money'
 pubDate: 2026-08-26
 ---
 
-Let $f(x)$ be the price curve of an asset over time, and suppose we want to create a financial instrument that offers returns twice that of $f$. Precisely, we want our price curve to be
+Let $f(x)$ be the price curve of an asset over time, and suppose we want to create a fund that offers returns twice that of $f$. Precisely, we want our price curve to be
 
 $$
 \frac12 f(x)^2
@@ -25,10 +25,10 @@ $$
 \Delta g = f(x)(\Delta f)+\frac12(\Delta f)^2
 $$
 
-We can set our position to $f(x)$ to achieve the left term, but what about the term on the right? In fact $\operatorname{E}[(\Delta f)^2] = \epsilon$. So, in order to achieve the right term our fund must increase in price by $\frac12\epsilon$ every $\epsilon$. Assuming we cannot print money, we must instead allow our 2x leveraged fund to have the return profile
+We can set our position to $f(x)$ to achieve the left term, but what about the term on the right? When $f$ was differentiable this term vanished, but now in fact $\operatorname{E}[(\Delta f)^2] = \epsilon$. So, in order to achieve the right term, our fund must increase in price by $\frac12\epsilon$ every $\epsilon$. Assuming we cannot print money, we must instead allow our 2x leveraged fund to have the return profile
 
 $$
 \frac12 f(x)^2-\frac12 x
 $$
 
-(why can we ignore the noise component $(\Delta f)^2 - \operatorname{E}[(\Delta f)^2]$? what is the variance in the accumulated noise?)
+(why can we substitute $\operatorname{E}[(\Delta f)^2] for $(\Delta f)^2$ and ignore the noise component $(\Delta f)^2 - \operatorname{E}[(\Delta f)^2]$? hint: calculate the variance in the accumulated noise)
