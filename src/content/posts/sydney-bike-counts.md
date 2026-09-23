@@ -3,9 +3,10 @@ title: 'Sydney cycling weekly index'
 pubDate: 2026-09-23
 ---
 
-It feels like there are more people on cycle paths today, but I found it hard to tell exactly how much more, using TfNSW's cycling counts dashboard.
 
-So, I made this plot. It merges all City of Sydney cycling counters and removes seasonal variation.
+It feels like there are more people on cycle paths today, but I found it hard to tell exactly how much more. TfNSW has a cycling counts dashboard at https://www.transport.nsw.gov.au/projects/programs/walking-and-cycling-program/walking-and-cycling-counts, but it only shows a naive average over counters, which is affected by counters being added or removed.
+
+So, I made this plot. It merges all City of Sydney cycling counters in a robust way and removes seasonal variation.
 
 ![](https://i.snap.as/rChuHboR.png)
 
